@@ -1,0 +1,367 @@
+@media (max-width: 1300px) {
+    .description__box {
+        width: 50%;
+    }
+
+    .cheeses__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .cheeses__inner img {
+        position: relative;
+    }
+
+    .who__box {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .who-desc {
+        margin: 0;
+        width: 50%;
+        z-index: 10;
+        min-height: 350px;
+    }
+
+    .who-desc p {
+        max-width: 90%;
+    }
+
+    .who-img {
+        position: relative;
+        width: 50%;
+    }
+
+    .switzerland__box {
+        display: block;
+    }
+
+    .description__box p {
+        padding: 0 0 30px;
+    }
+
+    .cheeses__inner img {
+        width: 50%;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .navigation {
+        justify-content: space-around;
+    }
+
+    .navigation__list {
+        column-gap: 70px;
+    }
+
+    .profile {
+        align-items: center;
+    }
+
+    .description__box p {
+        margin: 0 20px;
+    }
+
+    .who__box {
+        padding: 0 0 100px;
+    }
+
+    .reviews__box {
+        margin: 0 0 50px;
+    }
+
+    .feedback__form {
+        max-width: 600px;
+    }
+
+    .feedback-input {
+        justify-content: start;
+    }
+
+    .feedback__input__item {
+        margin: 0 0 0 20px;
+    }
+
+    .recommend__boxes {
+        display: block;
+    }
+
+    .recommend__boxes label{
+        padding: 0 0 10px;
+        font-size: 18px;
+    }
+
+    .recommend__boxes label::placeholder {
+        font-size: 18px;
+    }
+
+    .recommend-textarea {
+        width: 80%;
+    }
+}
+
+@media (max-width: 800px) {
+    .navigation__list {
+        column-gap: 20px;
+    }
+
+    .img-cheese {
+        width: 157px;
+        height: 157px;
+    }
+
+    .desc_product {
+        max-width: 200px;
+    }
+
+    .line {
+        width: 90%;
+    }
+
+    .product-btn {
+        padding: 7px 37px 7px;
+        font-size: 1rem;
+    }
+
+    .desc_product h4 {
+        font-size: 1.4rem;
+    }
+
+    .product__text {
+        height: 80px;
+        display: flex;
+        align-items: center;
+    }
+
+    .who__box-mob {
+        padding: 0 0 200px;
+    }
+
+    .footer__nav {
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .line-white {
+        width: 90%;
+        display: flex;
+        margin: 0 auto;
+        padding: 0 0 10px;
+    }
+
+    .reviews__boxes {
+        gap: 14px;
+    }
+}
+
+@media (max-width: 720px) {
+    .arrows {
+        padding: 0 20px;
+        display: flex;
+        column-gap: 20px;
+        justify-content: end;
+        max-width: 630px;
+    }
+}
+
+@media (max-width: 700px) {
+    .menu {
+        padding: 0 20px;
+        margin: 0 0 0 auto;
+    }
+
+    .photo-link, .photo {
+        display: none;
+    }
+
+    .link-text {
+        display: block;
+    }
+
+    .menu-btn{
+        display: inline-block;
+        width: 40px;
+        height: 35px;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        order: 1;
+        position: relative;
+        z-index: 50;
+    }
+
+    .btn-line{
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #FFFFFF;
+        height: 2px;
+        transition: .3s ease;
+    }
+
+    .btn-line:nth-child(1){
+        top: 0;
+    }
+
+    .btn-line:nth-child(2){
+        top: 15px;
+    }
+
+    .btn-line:nth-child(3){
+        top: 15px;
+    }
+
+    .btn-line:nth-child(4){
+        top: 30px;
+    }
+
+    .menu-open .btn-line:nth-child(1){
+        transform: scaleX(0);
+    }
+    .menu-open .btn-line:nth-child(2){
+        transform: rotate(45deg);
+    }
+    .menu-open .btn-line:nth-child(3){
+        transform: rotate(-45deg);
+    }
+    .menu-open .btn-line:nth-child(4){
+        transform: scaleX(0);
+    }
+
+    .menu__list{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        transform: translateY(-100%);
+        transition: .3s ease;
+    }
+
+    .menu-open .menu__list{
+        transform: translateY(0%);
+    }
+
+    .menu__item{
+        padding: 50px 0;
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+
+    .menu__item a{
+        color: #fff;
+    }
+
+    .main__text {
+        padding: 196px 20px 332px;
+    }
+
+    .cheeses__inner {
+        flex-direction: column;
+    }
+
+    .cheeses__inner-two {
+        flex-direction: column-reverse;
+    }
+
+    .description__box {
+        margin-right: auto;
+        width: 70%;
+    }
+
+    .cheeses__inner img {
+        margin-top: -40px;
+        margin-left: auto;
+    }
+
+    .switzerland__box {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .cheeses__inner img {
+        margin-top: -30px;
+        z-index: 100;
+    }
+
+    .who-desc {
+        min-height: 190px;
+    }
+
+    .switzerland {
+        padding: 0;
+    }
+
+    .feedback__form {
+        max-width: 300px;
+    }
+
+    .feedback__input__item {
+        padding: 13px;
+        width: 167px;
+        border-radius: 10px;
+    }
+
+    .recommend-textarea {
+        height: 200px;
+    }
+
+    .feedback-input {
+        gap: 20px;
+    }
+}
+
+
+@media (max-width: 445px) {
+    .reviews__title {
+        font-size: 1.2rem;
+    }
+
+    .reviews__description {
+        font-size: 1rem;
+        min-height: 140px;
+    }
+
+    .reviews__box {
+        max-width: 290px;
+    }
+
+    .reviews-line {
+        width: 90%;
+    }
+
+    .who__inner h2 {
+        text-align: center;
+        padding: 0 0 20px;
+    }
+
+    .feedback-input {
+        padding: 29px 0 35px;
+    }
+
+    .logo__text {
+        font-size: 2rem;
+    }
+
+    .header__inner {
+        padding: 40px 0 0;
+    }
+}
+
+@media (max-width: 390px) {
+    .description__box {
+        margin-right: auto;
+        width: 90%;
+    }
+}
